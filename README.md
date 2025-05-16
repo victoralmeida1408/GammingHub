@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+# GammingHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
 
-Currently, two official plugins are available:
+GammingHub é uma plataforma web desenvolvida para estudos, focada em reunir amigos para sessões de jogos online e presenciais. O projeto tem como foco principal o jogo Valorant, oferecendo funcionalidades para organização de eventos, compartilhamento de momentos e análise de estatísticas de jogo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades Principais
 
-## Expanding the ESLint configuration
+### 🎮 Organização de Partidas
+- Agendamento de sessões de jogo online e presenciais
+- Sistema de confirmação de presença
+- Notificações de eventos próximos
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 📅 Gerenciamento de Eventos
+- Criação e edição de eventos
+- Upload de fotos dos encontros
+- Histórico de eventos passados
+- Organização de "rolês" presenciais
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 📊 Dashboard Valorant
+- Estatísticas detalhadas de jogadores
+- Métricas de desempenho (First Death, First Kill)
+- Comparação de estatísticas entre amigos
+- Acompanhamento de progresso ao longo do tempo
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🖼️ Galeria de Momentos
+- Compartilhamento de screenshots e fotos
+- Organização por eventos
+- Sistema de comentários
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Tecnologias Utilizadas
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **Frontend**: React, TypeScript, Tailwind CSS v4
+
+## Status do Projeto
+
+Este projeto está em desenvolvimento ativo como parte de estudos em desenvolvimento web. Novas funcionalidades estão sendo adicionadas regularmente.
+
+---
+
+Desenvolvido com ❤️ para reunir amigos e aprimorar habilidades de desenvolvimento web.
+
+---
+Resposta do Perplexity: pplx.ai/share
