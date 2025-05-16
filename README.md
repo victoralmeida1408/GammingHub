@@ -31,14 +31,3 @@ GammingHub é uma plataforma web desenvolvida para estudos, focada em reunir ami
 ## Tecnologias Utilizadas
 
 - **Frontend**: React, TypeScript, Tailwind CSS v4
-
-## Status do Projeto
-
-Este projeto está em desenvolvimento ativo como parte de estudos em desenvolvimento web. Novas funcionalidades estão sendo adicionadas regularmente.
-
----
-
-Desenvolvido com ❤️ para reunir amigos e aprimorar habilidades de desenvolvimento web.
-
----
-Resposta do Perplexity: pplx.ai/share
