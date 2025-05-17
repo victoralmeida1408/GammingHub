@@ -31,3 +31,4 @@ GammingHub é uma plataforma web desenvolvida para estudos, focada em reunir ami
 ## Tecnologias Utilizadas
 
 - **Frontend**: React, TypeScript, Tailwind CSS v4
+- **Libs**: React-icons
