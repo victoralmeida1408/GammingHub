@@ -1,14 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.tsx'
-import CardGame from './cardgame.tsx'
-import Navbar from './Navbar.tsx'
+import Login from './login.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+<StrictMode>
     {/* <App /> 
     <CardGame /> */}
-    <Navbar />
+    {/* <Navbar /> */}
+    <Login />
   </StrictMode>,
+  
 )
