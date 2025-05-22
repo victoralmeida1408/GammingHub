@@ -1,7 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Login from "./Login";
+import Login from "./login";
+import SearchBar from "./search";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -9,5 +10,6 @@ createRoot(document.getElementById("root")!).render(
     <CardGame /> */}
     {/* <Navbar /> */}
     <Login />
+    {/* <SearchBar /> */}
   </StrictMode>
 );
