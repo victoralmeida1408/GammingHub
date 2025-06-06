@@ -3,14 +3,13 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import Login from "./login";
 import SearchBar from "./search";
-import CardGame from "./Cardgame";
+/*import CardGame from "./Cardgame";*/
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     {/* <App />  */}
-    <CardGame />
     {/* <Navbar /> */}
-    {/* <Login /> */}
+    { <Login /> }
     {/* <SearchBar /> */}
 
   </StrictMode>

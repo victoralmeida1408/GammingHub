@@ -1,4 +1,4 @@
-function cardGame() {
+/*function cardGame() {
     return (
          <> 
       <div className="bg-[url('/src/assets/img/valorant.jpg')] absolute bg-cover bg-center w-[290px] h-[360px] m-50 
@@ -25,4 +25,4 @@ function cardGame() {
     )
 }
 
-export default cardGame
+export default cardGame*/
